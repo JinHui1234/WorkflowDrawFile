@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="UlTGhu1DuzExC7v16QnT">
-    <mxGraphModel dx="3700" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2873" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,9 @@
           <mxGeometry height="60" width="120" x="335" y="650" as="geometry" />
         </mxCell>
         <mxCell id="5JijLFjPTpslOKc9d2ji-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="视觉拍照流程" vertex="1">
-          <mxGeometry height="840" width="600" x="-940" y="110" as="geometry" />
+          <mxGeometry height="840" width="600" x="-690" y="220" as="geometry">
+            <mxRectangle height="30" width="110" x="-940" y="110" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5JijLFjPTpslOKc9d2ji-26" edge="1" parent="5JijLFjPTpslOKc9d2ji-7" source="5JijLFjPTpslOKc9d2ji-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5JijLFjPTpslOKc9d2ji-20">
           <mxGeometry relative="1" as="geometry" />
