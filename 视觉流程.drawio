@@ -64,14 +64,47 @@
         <mxCell id="5JijLFjPTpslOKc9d2ji-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2.拍二锁N" vertex="1">
           <mxGeometry height="60" width="120" x="335" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="5JijLFjPTpslOKc9d2ji-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="视觉拍照流程" vertex="1">
+        <mxCell id="5JijLFjPTpslOKc9d2ji-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="视觉拍照流程" vertex="1">
           <mxGeometry height="840" width="600" x="-940" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-26" edge="1" parent="5JijLFjPTpslOKc9d2ji-7" source="5JijLFjPTpslOKc9d2ji-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5JijLFjPTpslOKc9d2ji-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5JijLFjPTpslOKc9d2ji-8" parent="5JijLFjPTpslOKc9d2ji-7" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="视觉拍照流程" vertex="1">
           <mxGeometry height="50" width="120" x="210" y="55" as="geometry" />
         </mxCell>
-        <mxCell id="5JijLFjPTpslOKc9d2ji-20" parent="5JijLFjPTpslOKc9d2ji-7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="PLC移动机械臂" vertex="1">
-          <mxGeometry height="60" width="120" x="210" y="150" as="geometry" />
+        <mxCell id="5JijLFjPTpslOKc9d2ji-27" edge="1" parent="5JijLFjPTpslOKc9d2ji-7" source="5JijLFjPTpslOKc9d2ji-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5JijLFjPTpslOKc9d2ji-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-20" parent="5JijLFjPTpslOKc9d2ji-7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="PLC移动机械臂到&lt;br&gt;目标位置" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-28" edge="1" parent="5JijLFjPTpslOKc9d2ji-7" source="5JijLFjPTpslOKc9d2ji-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5JijLFjPTpslOKc9d2ji-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-21" parent="5JijLFjPTpslOKc9d2ji-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PLC发送机械臂到达位置&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="145" x="197.5" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-22" parent="5JijLFjPTpslOKc9d2ji-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PLC回复收到拍照完成信号&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="192.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-29" edge="1" parent="5JijLFjPTpslOKc9d2ji-7" source="5JijLFjPTpslOKc9d2ji-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5JijLFjPTpslOKc9d2ji-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-23" parent="5JijLFjPTpslOKc9d2ji-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PC回复机械臂到达信号&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="145" x="197.5" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-31" edge="1" parent="5JijLFjPTpslOKc9d2ji-7" source="5JijLFjPTpslOKc9d2ji-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5JijLFjPTpslOKc9d2ji-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-24" parent="5JijLFjPTpslOKc9d2ji-7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PC发送拍照完成信号&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="205" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-30" edge="1" parent="5JijLFjPTpslOKc9d2ji-7" source="5JijLFjPTpslOKc9d2ji-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="5JijLFjPTpslOKc9d2ji-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5JijLFjPTpslOKc9d2ji-25" parent="5JijLFjPTpslOKc9d2ji-7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PC执行拍照逻辑&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="510" as="geometry" />
         </mxCell>
         <mxCell id="5JijLFjPTpslOKc9d2ji-9" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="视觉拍照流程" vertex="1">
           <mxGeometry height="50" width="120" x="170" y="740" as="geometry" />
