@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="UlTGhu1DuzExC7v16QnT">
+    <mxGraphModel dx="2046" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hchnaBkYNm-6G8WQOVOu-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;流程开始&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="330" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hchnaBkYNm-6G8WQOVOu-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PLC发送启动拍照信号&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="330" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hchnaBkYNm-6G8WQOVOu-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PC回复收到启动信号&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="330" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hchnaBkYNm-6G8WQOVOu-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PLC发送启动拍照信号&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hchnaBkYNm-6G8WQOVOu-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;PC回复收到启动信号&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="60" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hchnaBkYNm-6G8WQOVOu-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="判断纠偏方式" vertex="1">
+          <mxGeometry height="80" width="130" x="330" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
