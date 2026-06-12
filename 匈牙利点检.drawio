@@ -1,72 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="lorJFCuiGzzeL4-9tXXD">
-    <mxGraphModel dx="2873" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2532" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="废钉盒逻辑" vertex="1">
-          <mxGeometry height="30" width="110" x="90" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-5" edge="1" parent="1" source="7VY_mtrDT8DNuDCqo_Xd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7VY_mtrDT8DNuDCqo_Xd-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-6" connectable="0" parent="7VY_mtrDT8DNuDCqo_Xd-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
-          <mxGeometry relative="1" x="-0.0556" y="-4" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-8" edge="1" parent="1" source="7VY_mtrDT8DNuDCqo_Xd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7VY_mtrDT8DNuDCqo_Xd-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="260" y="100" />
-              <mxPoint x="260" y="520" />
-            </Array>
-            <mxPoint x="250" y="100" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-9" connectable="0" parent="7VY_mtrDT8DNuDCqo_Xd-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0" vertex="1">
-          <mxGeometry relative="1" x="0.0909" y="-3" as="geometry">
-            <mxPoint x="13" y="-24" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PLC发送供料器螺丝总数0/1" vertex="1">
-          <mxGeometry height="60" width="120" x="85" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-11" edge="1" parent="1" source="7VY_mtrDT8DNuDCqo_Xd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7VY_mtrDT8DNuDCqo_Xd-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上位机读取螺丝总数" vertex="1">
-          <mxGeometry height="60" width="120" x="85" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-15" edge="1" parent="1" source="7VY_mtrDT8DNuDCqo_Xd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7VY_mtrDT8DNuDCqo_Xd-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上位机读取废钉总数" vertex="1">
-          <mxGeometry height="60" width="120" x="85" y="290" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
-          <mxGeometry height="60" width="120" x="85" y="490" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-16" edge="1" parent="1" source="7VY_mtrDT8DNuDCqo_Xd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7VY_mtrDT8DNuDCqo_Xd-12" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上位机回复&lt;br&gt;已收到供料器螺丝总数(1)" vertex="1">
-          <mxGeometry height="60" width="140" x="75" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DB200.DBB258" vertex="1">
-          <mxGeometry height="40" width="120" x="-60" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DB200.DBB300" vertex="1">
-          <mxGeometry height="40" width="120" x="-60" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DB200.DBB304" vertex="1">
-          <mxGeometry height="40" width="120" x="-60" y="300" as="geometry" />
-        </mxCell>
-        <mxCell id="7VY_mtrDT8DNuDCqo_Xd-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DB201.DBB258" vertex="1">
-          <mxGeometry height="40" width="120" x="-60" y="400" as="geometry" />
-        </mxCell>
         <mxCell id="okRNKNiCrdmTCkVDbGHs-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="相机点检-21号 点检模式" vertex="1">
-          <mxGeometry height="60" width="120" x="-550" y="560" as="geometry" />
+          <mxGeometry height="60" width="120" x="-460" y="660" as="geometry" />
         </mxCell>
         <mxCell id="okRNKNiCrdmTCkVDbGHs-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="扭矩点检" vertex="1">
           <mxGeometry height="60" width="120" x="-140" y="750" as="geometry" />
