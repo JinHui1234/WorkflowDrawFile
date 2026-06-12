@@ -43,6 +43,24 @@
         <mxCell id="okRNKNiCrdmTCkVDbGHs-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="点检事件驱动&lt;br&gt;比如 1扭矩、2点胶、3位移传感器" vertex="1">
           <mxGeometry height="60" width="120" x="-60" y="650" as="geometry" />
         </mxCell>
+        <mxCell id="MwvEWM5h0SmBrXAKsGim-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="当前工位状态&lt;br&gt;（手动自动，报警）" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvEWM5h0SmBrXAKsGim-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PLC开始作业信号" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvEWM5h0SmBrXAKsGim-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SN" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvEWM5h0SmBrXAKsGim-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="作业数据&lt;br&gt;节拍&lt;br&gt;OK数量NG数量&lt;br&gt;质量数据" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvEWM5h0SmBrXAKsGim-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PLC作业完成" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="MwvEWM5h0SmBrXAKsGim-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="用上升沿信号，判断" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="1410" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
